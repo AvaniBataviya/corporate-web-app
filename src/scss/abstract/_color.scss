@@ -1,0 +1,57 @@
+@import "./variables";
+
+.text {
+  &-primary {
+    color: $color-primary !important;
+  }
+  &-secondary {
+    color: $color-secondary !important;
+  }
+  &-white {
+    &-hov:hover {
+      color: white !important;
+    }
+  }
+  &-gray {
+    color: $color-gray !important;
+  }
+  &-light-gray {
+    color: $color-graylight !important;
+  }
+  &-graydark {
+    color: $color-graydark !important;
+  }
+  &-black {
+    color: $color-black;
+  }
+}
+
+.bg {
+  &-primary {
+    background-color: $color-primary !important;
+    &-hov:hover {
+      background-color: $color-primary !important;
+    }
+  }
+  &-white-hov:hover {
+    background-color: white;
+  }
+  &-offwhite {
+    background-color: $color-offwhite;
+  }
+  &-gray {
+    background-color: $color-gray;
+  }
+  &-graylight {
+    background-color: $color-graylight;
+  }
+  &-graydark {
+    background-color: $color-graydark;
+  }
+  &-success {
+    background-color: $color-success;
+  }
+  &-gradient-blue {
+    background-image: linear-gradient(to right, #032249, #030c18);
+  }
+}

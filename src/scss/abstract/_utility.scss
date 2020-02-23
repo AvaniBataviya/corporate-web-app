@@ -1,0 +1,31 @@
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.white-rounded-backgroung {
+  padding: 1.5rem;
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 2px 2px 6px 0 #aaaaaa;
+}
+
+section {
+  padding: 80px 120px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  border: none !important;
+  height: calc(2em + 1rem + 2px);
+  // &:focus{
+    // box-shadow: none !important;
+  // }
+}

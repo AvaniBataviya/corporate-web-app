@@ -1,0 +1,18 @@
+@import "../abstract/variables";
+
+.corporat-header {
+  .nav-link {
+    font-size: 20px; 
+    &:hover {
+      border-bottom: 2px solid $color-secondary;
+    }
+  }
+  .nav-active{
+    border-bottom: 2px solid $color-secondary !important;
+  }
+}
+
+.logo {
+  font-size: 52px;
+  font-weight: 900;
+}

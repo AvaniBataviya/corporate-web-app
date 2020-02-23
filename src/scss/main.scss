@@ -1,5 +1,12 @@
-@import "abstract/variables";
+@import "./abstract/variables";
+@import "./abstract/base";
+@import "./abstract/color";
+@import "./abstract/utility";
 
-@import "components/buttons";
+@import "./components/buttons";
 
-@import "pages/home";
+@import "./layout/header";
+
+@import "./pages/home";
+
+
