@@ -1,0 +1,10 @@
+@import '../abstract/variables';
+
+.btn {
+    &-primary {
+        border: 1px solid rgba($color-primary, 1);
+        &:focus {
+            box-shadow: 0 0 0 0.2rem rgba($color-primary, .5);
+        }
+    }
+}
